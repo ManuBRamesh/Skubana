@@ -1,0 +1,2 @@
+# Skubana
+Static skubana webpage
