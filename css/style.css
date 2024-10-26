@@ -1,0 +1,230 @@
+#main_heading{
+    margin-top: 70px;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin-bottom: -40px;
+    font-weight: 300; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#book_demo{
+    background-color: black;
+    border: #F95C00 solid 2px;  
+    color: #F95C00;
+    height: 50px; 
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.fnt{
+    
+        font-size: 20px;
+    font-weight: 1000;
+   text-decoration: none;
+    background-color: rgb(243,243,243);
+    color: rgb(174,169,169);
+
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.bgimg {
+    background-image: url('../MC_UI_FINAL-Background_Grey.jpg');
+    padding-bottom: 50px;
+   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar {
+    margin-bottom : 0px;
+    background-color: #24242C;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: transparent}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+ul, li{
+    width: auto;
+    padding: 0px;
+    list-style-type: none;
+   
+   
+}
+.jumbotron{
+    background: none;
+   margin-top: -100px;
+    
+    font-size: 10px
+}
+
+#panel1{
+    background-color: #F95C00;
+    color: white;
+    padding: none;
+    border: none;
+}
+
+#panel2{
+    color: #666666;
+    margin-left: 40px;
+    
+}
+
+li {
+  position: relative; /* necessary for positioning the :after */
+}
+
+.btn{
+    align-content: center;
+    background-color: #24272E;
+}
+
+.bck{
+    background-color: #F95C00;
+    
+}
+
+li.done {
+     font-size: 150%;
+  list-style: none; /* remove normal bullet for done items */
+}
+
+li.done:after {
+  content: "";
+  background-color: transparent;
+    
+  
+  /* position the checkbox */
+  position: absolute;
+  left: -16px;
+  top: 0px;
+
+  /* setting the checkbox */
+    /* short arm */
+  width: 5px;
+  border-bottom: 3px solid #FFFFFF;
+    /* long arm */
+  height: 11px;
+  border-right: 3px solid #FFFFFF;
+  
+  /* rotate the mirrored L to make it a checkbox */
+  transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.dec{
+    margin-top: -25px;
+     margin-bottom: -25px;
+    font-family: Times New Roman;
+}
+.brd{
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.color-me{
+    color:white !important; ;
+}
+
+.btn{
+    width:300px;
+    background-color: #FA782B;
+    font-size: 20px;
+    color : white;
+}
+
+.size{
+    height : 40px;
+}
+
+.cell{
+    padding-top: 30px;
+}
+
+.panel-group .panel-heading a:after {
+  content: '-';
+  position: absolute;
+  right: 20px;
+  top:5px;
+    
+}
+
+.panel-body{
+    
+    font-size: 15px;
+}
+
+.ftr{
+    
+padding-bottom: 15px;
+padding-right: 100px;
+
+}
+
+.panel-group .panel-heading a.collapsed:after {
+  content: '+';
+
+}
+.clr{
+   color: white;
+}
+
+
+.navbar-nav>li>a:hover{
+    background: none;
+    color: #FA782B;
+    transition-duration: 0.75s;
+}
+
+.panel-heading{
+    background-color: white !important;
+
+}
+
+.panel-heading a{
+    text-decoration: none;
+}
